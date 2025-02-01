@@ -13,6 +13,7 @@ public class Studente {
 
     }
     
+    //Metodo
     public void info(){
         System.out.println(String.format("I dati dello studente sono %s %s, %d anni", nome, cognome, eta));
     }
