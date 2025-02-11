@@ -1,8 +1,8 @@
 public class ContoBancario {
     
     //Attributi
-    public int conto;
-    public int saldo;
+    private int conto;
+    private int saldo;
     //
 
     //Costruttore
@@ -23,8 +23,6 @@ public class ContoBancario {
     }
 
     public int prelievo (int quantitaPrelievo){
-        /* saldo -= quantitaPrelievo;
-        return saldo; */
         if(saldo >= quantitaPrelievo){
             saldo -= quantitaPrelievo;
             return saldo;
